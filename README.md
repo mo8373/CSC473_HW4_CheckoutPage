@@ -1,4 +1,4 @@
-# CSC473_HW4_CheckoutPage
+# CheckoutPage HW #4 for CSc 47300 at CCNY
  
  
 I'll be creating a standalone checkout page as homework for my Web Site Design course at CCNY - CSc 47300.
