@@ -81,19 +81,22 @@
               </div>
             </div>
           </div>
-
+          <h3>Shipping Address Section</h3>
           <div class="col-8 text-white">
-            <div class="form-check">
-            <input id="sameAddress"
-            type="checkbox"
-            class="form-check-input">
-            <label class="form-check-label"
-            for="sameAddress">The Shipping Address is the same as the Billing Address. Checking this option will make the following Shipping Address section disappear.
+            <div>
           </div>
         </div>
         <div>
-          <h3>Shipping Address Section</h3>
+          
+          <style>.checkbox-custom:checked ~.input-box {
+            visibility: hidden;
+            opacity: 0;
+          }</style>
           <form class="needs-validation" novalidate>
+            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked>
+            <label for="checkbox-1" class="checkbox-custom-label">The Shipping Address is the same as the Billing Address. Checking this option will make the following Shipping Address section disappear. Kindly scroll down :)</label>
+        
+              <div class="input-box">
             <div class="row g-0">
               <div class="col-md-6 mb-3">
                 <label for="firstName">First Name</label>
@@ -155,7 +158,7 @@
               </div>
             </div>
         </div>
-        
+      </div>
         
         <h3>Payment Section</h3>
         <p>We only accept credit cards at this time. We're sorry for any inconveniences.</p>
